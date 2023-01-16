@@ -3,6 +3,8 @@ import axios from "axios";
 
 
 import SearchInput from "./SearchInput";
+import ImageList from "./ImageList";
+
 
 
 class App extends React.Component {
@@ -24,7 +26,7 @@ class App extends React.Component {
             <div className="ui container" style={{ marginTop: "30px" }}>
 
                 <SearchInput onSearchSubmit={this.onSearchSubmit} />
-                We have {this.state.images.length} images.
+                <ImageList images={this.state.images}/>
             </div>
         )
     }
