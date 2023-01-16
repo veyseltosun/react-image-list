@@ -23,9 +23,9 @@ class App extends React.Component {
     render() {
 
         return (
-            <div className="ui container" style={{ marginTop: "30px", background: "#c0c0aa", /* fallback for old browsers */
-            background: "-webkit-linear-gradient(to right, #1cefff, #c0c0aa)",  /* Chrome 10-25, Safari 5.1-6 */
-            background: "linear-gradient(to right, #1cefff, #c0c0aa)", /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            <div className="ui container" style={{ marginTop: "30px", /* background: "#c0c0aa",
+            background: "-webkit-linear-gradient(to right, #1cefff, #c0c0aa)",  
+            background: "linear-gradient(to right, #1cefff, #c0c0aa)",*/
              }}>
 
                 <SearchInput onSearchSubmit={this.onSearchSubmit} />
