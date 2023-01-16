@@ -26,7 +26,7 @@ class SearchInput extends React.Component {
                               onChange={(event) => this.setState({entry: event.target.value})}
                               value={this.state.entry}
                              />
-                            <i className="search icon" onClick={() => {}}></i>
+                            <i className="search icon" onClick={() => this.onFormSubmit}></i>
 
                         </div>
 
