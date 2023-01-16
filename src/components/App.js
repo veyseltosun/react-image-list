@@ -11,7 +11,7 @@ class App extends React.Component {
         axios.get(`https://pixabay.com/api/?key=32890479-9c105d6129c482faf9ed98a32&q=${entry}&image_type=photo`)
 
     }
-    componentDidMount()
+    
 
     render() {
 
